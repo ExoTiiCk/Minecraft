@@ -1,0 +1,36 @@
+{
+  "server": {
+    "name": "Mon Serveur",
+    "ip": "78.123.8.4",
+    "port": 25565,
+    "description": "Serveur PvP Moddé",
+    "version": "1.20.1",
+    "loader": "fabric",
+    "loaderVersion": "0.15.11"
+  },
+  "mods": [
+    {
+      "name": "Fabric API",
+      "filename": "fabric-api-0.92.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/rsFnuMbg/fabric-api-0.92.0%2B1.20.1.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "name": "Sodium",
+      "filename": "sodium-fabric-0.5.8+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/LqqgylV4/sodium-fabric-0.5.8%2Bmc1.20.1.jar",
+      "required": true,
+      "side": "client"
+    },
+    {
+      "name": "Iris Shaders",
+      "filename": "iris-mc1.20.1-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/nvObHi2X/iris-mc1.20.1-1.7.0.jar",
+      "required": false,
+      "side": "client"
+    }
+  ],
+  "resourcepacks": [],
+  "config": []
+}
