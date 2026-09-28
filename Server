@@ -1,35 +1,51 @@
 {
   "server": {
-    "name": "Mon Serveur",
+    "name": "Mon Serveur Cobblemon",
     "ip": "78.123.8.4",
     "port": 25565,
-    "description": "Serveur PvP Moddé",
-    "version": "1.20.1",
+    "description": "Serveur Cobblemon",
+    "version": "1.21.1",
     "loader": "fabric",
-    "loaderVersion": "0.15.11"
+    "loaderVersion": "0.18.2"
   },
   "mods": [
-    {
-      "name": "Fabric API",
-      "filename": "fabric-api-0.92.0+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/rsFnuMbg/fabric-api-0.92.0%2B1.20.1.jar",
-      "required": true,
-      "side": "both"
-    },
-    {
-      "name": "Sodium",
-      "filename": "sodium-fabric-0.5.8+mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/LqqgylV4/sodium-fabric-0.5.8%2Bmc1.20.1.jar",
-      "required": true,
-      "side": "client"
-    },
-    {
-      "name": "Iris Shaders",
-      "filename": "iris-mc1.20.1-1.7.0.jar",
-      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/nvObHi2X/iris-mc1.20.1-1.7.0.jar",
-      "required": false,
-      "side": "client"
-    }
+    { "name": "Accessories", "filename": "accessories-fabric-1.1.0-beta.53+1.21.1.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon RLM", "filename": "Cobblemon-RLM-1.5.2.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "APS Trophies", "filename": "aps_trophies-1.21.1-fabric-1.2.0.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Architectury", "filename": "Architecture.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Badgebox", "filename": "badgebox-fabric-1.3.0.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Better Pokedex Scanner", "filename": "better-pokedex-scanner-1.0.0.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon GTS", "filename": "CobbleGTS.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon Armory", "filename": "cobblemonarmory-1.5.3-fabric-1.21.1.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon Auto Tidy Up PC", "filename": "CobblemonAutoTidyUpPC-1.2-SNAPSHOT.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon Escape Rope", "filename": "cobblemon-escape-rope-fabric-1.0.0.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon Extras", "filename": "CobblemonExtras.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon", "filename": "Cobblemon-fabric-1.7.3+1.21.1.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon Ride Effects", "filename": "CobblemonRideEffects-1.0.0.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cosmetic Megas", "filename": "Cosmetic Megas [v1.3-mod].jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Fabric API", "filename": "Fabric Api.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Hunt", "filename": "Hunt.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Jade", "filename": "Jade-1.21.1-Fabric-15.10.5.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "JEI", "filename": "jei-1.21.1-fabric-19.27.0.340.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon PokeStops", "filename": "cobblemon-pokestops-fabric-1.2.1.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon Snap", "filename": "cobblemon_snap-fabric-1.1.3.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Cobblemon Raid Dens", "filename": "cobblemonraiddens-fabric-0.11.1+1.21.1.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "CobbleNav", "filename": "cobblenav-fabric-2.3.3.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "CobbleUtils", "filename": "CobbleUtils.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "CobbleWonderTrade", "filename": "CobbleWonderTrade.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Fight or Flight", "filename": "fightorflight-fabric-0.10.7.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "GeckoLib", "filename": "geckolib-fabric-1.21.1-4.8.4.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Horrets Extended Mega", "filename": "horretsextendedmega-fabric-1.7.6.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Lost Lore", "filename": "lost_lore-fabric-2.2.0.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Mega Showdown", "filename": "mega_showdown-fabric-1.8.4+1.7.3+1.21.1.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "More Cobblemon Tweaks", "filename": "MoreCobblemonTweaks-fabric-1.3.3.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Lasers Fakemon Pack", "filename": "lasers-fakemon-pack-1.5.5.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "owo-lib", "filename": "owo-lib-0.12.15.4+1.21.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Pokeblocks", "filename": "pokeblocks-1.5.0-1.21.1.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Terralith", "filename": "Terralith.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "UltraSTS", "filename": "UltraSTS.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Voice Chat", "filename": "voicechat-fabric-1.21.1-2.6.18.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" },
+    { "name": "Xaero Minimap", "filename": "xaerominimap-fabric-1.21.1-25.3.12.jar", "url": "URL_DIRECTE_AJOUTER", "required": true, "side": "both" }
   ],
   "resourcepacks": [],
   "config": []
